@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1031724956487982');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1031724956487982&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zero To Hero - Educational market insights and trading information.">
+  <title>Zero To Hero | Telegram Channel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #eef4ff 0%, #ffffff 55%, #f4f7ff 100%);
+      color: #111827;
+      display: flex;
+      justify-content: center;
+      padding: 22px 14px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 430px;
+      text-align: center;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 15px 18px;
+      margin: 8px 0;
+      border-radius: 32px;
+      background: linear-gradient(135deg, #087cff, #0056d6);
+      color: #fff;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      box-shadow: 0 8px 22px rgba(0, 91, 214, 0.22);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(0, 91, 214, 0.28);
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      margin: 28px auto 18px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, .14);
+      border: 4px solid #fff;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 1.2;
+      margin: 8px 0 18px;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      color: #667085;
+      margin: -8px 0 20px;
+    }
+
+    .points {
+      text-align: left;
+      background: rgba(255,255,255,.75);
+      border-radius: 18px;
+      padding: 14px 16px;
+      margin: 12px 0 18px;
+      box-shadow: 0 5px 20px rgba(16, 24, 40, .06);
+    }
+
+    .points p {
+      margin: 10px 0;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #344054;
+    }
+
+    .check {
+      color: #16a34a;
+      margin-right: 8px;
+      font-weight: 700;
+    }
+
+    .highlight {
+      color: #006fe6;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 16px 0;
+    }
+
+    .disclaimer {
+      font-size: 10px;
+      line-height: 1.5;
+      color: #777;
+      margin: 18px 4px 14px;
+    }
+
+    .footer {
+      margin-top: 12px;
+      padding: 11px 14px;
+      border-radius: 22px;
+      background: linear-gradient(45deg, #ff6a00, #ff0000);
+      color: #fff;
+      font-size: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,.15);
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      .logo {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <!-- =========================
+         CHANGE LINKS / IMAGE HERE
+         ========================= -->
+    <script>
+      const TELEGRAM_LINK = "https://t.me/+p-_F4BAIiallYWNl";
+      const LOGO_IMAGE = "./zero.jpg";
+      const FOOTER_LINK = "https://t.me/+7BuZUUiowfBiMjQ1";
+    </script>
+
+    <!-- Top Telegram Button -->
+    <a id="topBtn" class="btn" href="#" target="_blank" rel="noopener">
+      JOIN NOW FOR FREE TELEGRAM CHANNEL 🚀
+    </a>
+
+    <!-- Logo -->
+    <div class="logo">
+      <img id="logoImg" src="./zero.jpg" alt="Zero To Hero logo">
+    </div>
+
+    <!-- Title -->
+    <h1>ZERO TO HERO</h1>
+    <div class="subtitle">Educational market insights & trading information</div>
+
+    <!-- Points -->
+    <section class="points">
+      <p><span class="check">✓</span>Nifty, BankNifty & Options market insights</p>
+      <p><span class="check">✓</span>Risk-reward focused educational information</p>
+      <p><span class="check">✓</span>Regular market updates and learning content</p>
+    </section>
+
+    <!-- Highlight -->
+    <div class="highlight">Join Today For FREE! 🚀</div>
+
+    <!-- Bottom Telegram Button -->
+    <a id="bottomBtn" class="btn" href="#" target="_blank" rel="noopener">
+      JOIN NOW FOR FREE TELEGRAM CHANNEL 🚀
+    </a>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+      Disclaimer: Educational content only. This page does not provide guaranteed
+      returns or personalized investment advice. Trading and investing involve risk.
+      Please do your own research before making financial decisions.
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      🔥 <a id="footerLink" href="#" target="_blank" rel="noopener">
+        Ads by Maxjohn ad agency • Boost Reach 🚀
+      </a>
+    </div>
+
+  </main>
+
+  <script>
+    // Apply the settings above automatically.
+    document.getElementById("topBtn").href = TELEGRAM_LINK;
+    document.getElementById("bottomBtn").href = TELEGRAM_LINK;
+    document.getElementById("logoImg").src = LOGO_IMAGE;
+    document.getElementById("footerLink").href = FOOTER_LINK;
+  </script>
+</body>
+</html>
